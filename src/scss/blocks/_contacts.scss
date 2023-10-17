@@ -42,13 +42,56 @@
     &::after {
       content: " ";
       position: absolute;
-      bottom: -42px;
+      bottom: -40px;
       left: 0;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 42px 310px 0 310px;
       border-color: black rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    }
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    &-link {
+      transition: .3s all;
+      .stroke {
+        width: 40px;
+        height: 40px;
+        transition: .3s all;
+        path {
+          transition: .3s all;
+        }
+      }
+      .fill {
+        width: 40px;
+        height: 40px;
+        transition: .3s all;
+        path {
+          transition: .3s all;
+        }
+      }
+      &:hover {
+        .fill {
+          path {
+            fill: #B61E25;
+          }
+        }
+        .stroke {
+          path {
+            stroke: #B61E25;
+          }
+         
+        }
+        // svg {
+        //   path {
+        //     fill:#B61E25;
+        //   }
+        // }
+      }
     }
   }
 }

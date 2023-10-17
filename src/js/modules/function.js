@@ -154,6 +154,9 @@ export const scrollLinks = () => {
                     behavior: 'smooth',
                     block: 'start'
                 });
+                if (document.querySelector('.menu').classList.contains('active')) {
+                    document.querySelector('.menu').classList.remove('active')
+                }
             } else {
                 window.location = link.getAttribute('href');
             }

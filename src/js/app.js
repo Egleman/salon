@@ -39,3 +39,15 @@ maskedInputs.forEach(inp => {
     im.mask(inp)
 })
 
+const burgerBtn = document.querySelector('.header__burger');
+const closeBtn = document.querySelector('a.close');
+burgerBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector('.menu').classList.add('active');
+})
+closeBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (document.querySelector('.menu').classList.contains('active')) {
+        document.querySelector('.menu').classList.remove('active')
+    }
+})
