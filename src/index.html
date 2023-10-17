@@ -1,0 +1,340 @@
+@@include('html/head.html', {
+    "title": "Главная"
+})
+<body>
+    @@include('html/header.html', {})
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="banner__wrapper">
+                    <div class="banner__wrapper-left animate__animated animate__fadeInLeft">
+                        <p class="banner__small-text">
+                            ДОБРО ПОЖАЛОВАТЬ В
+                        </p>
+                        <h1 class="banner__title">
+                            Семейную парикмахерскую <br><span>Вам к нам</span>
+                        </h1>
+                        <ul class="banner__list">
+                            <li class="banner__list-item">
+                                <div class="banner__list-text">
+                                    <img src="./img/icons/address.svg" alt="address">
+                                    <p>Сочи, Невская 18</p>
+                                </div>
+                            </li>
+                            <li class="banner__list-item">
+                                <div class="banner__list-text">
+                                    <img src="./img/icons/phone.svg" alt="phone">
+                                    <a href="#">+7 (999) 999-9999</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="#" class="button" data-link="scroll" data-block="#callback">Записаться на приём</a>
+                    </div>
+                    <div class="banner__wrapper-right animate__animated animate__fadeInRight">
+                        <img src="./img/other/banner.jpg" alt="banner">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container services__wrapper">
+                <div class="services__card">
+                    <img src="./img/icons/knife.png" alt="knife">
+                    <p>Регулярная стрижка</p>
+                    <a href="#" class="button button_small" data-link="scroll" data-block="#callback">Подробнее</a>
+                </div>
+                <div class="services__card">
+                    <img src="./img/icons/boroda.png" alt="boroda">
+                    <p>Мужской уход за лицом</p>
+                    <a href="#" class="button button_small" data-link="scroll" data-block="#callback">Подробнее</a>
+                </div>
+                <div class="services__card">
+                    <img src="./img/icons/knifecar.png" alt="knifecar">
+                    <p>Королевское бритье</p>
+                    <a href="#" class="button button_small" data-link="scroll" data-block="#callback">Подробнее</a>
+                </div>
+                <div class="services__card">
+                    <img src="./img/icons/children.png" alt="children">
+                    <p>Женская Стрижка</p>
+                    <a href="#" class="button button_small" data-link="scroll" data-block="#callback">Подробнее</a>
+                </div>
+            </div>
+        </section>
+        <section id="examples" class="examples">
+            <div class="container">
+                <div class="examples__title">Примеры работ</div>
+                <div class="examples__grid">
+                    <a href="./img/examples/1.jpg" data-fancybox="gallery" class="examples__card examples__card_4">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/1.jpg" />
+                    </a>
+                    <a href="./img/examples/2.jpg" data-fancybox="gallery" class="examples__card examples__card_2">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/2.jpg" />
+                    </a>
+                    <a href="./img/examples/3.jpg" data-fancybox="gallery" class="examples__card examples__card_1">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/3.jpg" />
+                    </a>
+                    <a href="./img/examples/4.jpg" data-fancybox="gallery" class="examples__card examples__card_1">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/4.jpg" />
+                    </a>
+                    <a href="./img/examples/5.jpg" data-fancybox="gallery" class="examples__card examples__card_1">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/5.jpg" />
+                    </a>
+                    <a href="./img/examples/6.jpg" data-fancybox="gallery" class="examples__card examples__card_1">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/6.jpg" />
+                    </a>
+                    <a href="./img/examples/7.jpg" data-fancybox="gallery" class="examples__card examples__card_2">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/7.jpg" />
+                    </a>
+                    <a href="./img/examples/7.jpg" data-fancybox="gallery" class="examples__card examples__card_2">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/7.jpg" />
+                    </a>
+                    <a href="./img/examples/5.jpg" data-fancybox="gallery" class="examples__card examples__card_1">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/5.jpg" />
+                    </a>
+                    <a href="./img/examples/6.jpg" data-fancybox="gallery" class="examples__card examples__card_1">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/6.jpg" />
+                    </a>
+                    <a href="./img/examples/2.jpg" data-fancybox="gallery" class="examples__card examples__card_2">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/2.jpg" />
+                    </a>
+                    <a href="./img/examples/8.jpg" data-fancybox="gallery" class="examples__card examples__card_4">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/8.jpg" />
+                    </a>
+                    <a href="./img/examples/3.jpg" data-fancybox="gallery" class="examples__card examples__card_1">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/3.jpg" />
+                    </a>
+                    <a href="./img/examples/4.jpg" data-fancybox="gallery" class="examples__card examples__card_1">
+                        <div class="hover">
+                            <svg width="669" height="661" viewBox="0 0 669 661" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M267.333 501.667C396.2 501.667 500.667 397.2 500.667 268.333C500.667 139.467 396.2 35 267.333 35C138.467 35 34 139.467 34 268.333C34 397.2 138.467 501.667 267.333 501.667Z" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M633.973 635L432.307 433.333" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M134 268.333H400.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M267.333 135V401.667" stroke="white" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <img src="./img/examples/4.jpg" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="why">
+            <div class="container">
+                <div class="why__wrapper">
+                    <div class="why__wrapper-left animate__animated">
+                        <div class="why__time">
+                            <div class="title">Режим работы</div>
+                            <ul class="list">
+                                <li class="list-item">
+                                    <p class="list-text">ВОСКРЕСЕНЬЕ 10:00–17:00</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="list-text">ПОНЕДЕЛЬНИК 9:00–19:00</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="list-text">ВТОРНИК 8:00–20:00</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="list-text">СРЕДА 8:00–20:00</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="list-text">ЧЕТВЕРГ 8:00–20:00</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="list-text">ПЯТНИЦА 8:00–19:00</p>
+                                </li>
+                                <li class="list-item">
+                                    <p class="list-text">СУББОТА 9:00 - 18:00</p>
+                                </li>
+                            </ul>
+                            <a href="#" class="button" data-link="scroll" data-block="#callback">Записаться</a>
+                        </div>
+                    </div>
+                    <div class="why__wrapper-right animate__animated">
+                        <div class="why__title">Почему нужно выбрать нас?</div>
+                        <div class="why__subtitle">Кроме того, есть еще 5 причин, по которым клиенты предпочитают Семейную парикмахерскую ВАМ К НАМ</div>
+                        <ul class="why__list">
+                            <li class="why__list-item">
+                                <div class="why__list-text">
+                                    <span>✓</span>
+                                    <p>Всегда доброжелательная обстановка</p>
+                                </div>
+                            </li>
+                            <li class="why__list-item">
+                                <div class="why__list-text">
+                                    <span>✓</span>
+                                    <p>Наши мастера ориентируются на качество</p>
+                                </div>
+                            </li>
+                            <li class="why__list-item">
+                                <div class="why__list-text">
+                                    <span>✓</span>
+                                    <p>Мы ценим время и деньги наших клиентов</p>
+                                </div>
+                            </li>
+                            <li class="why__list-item">
+                                <div class="why__list-text">
+                                    <span>✓</span>
+                                    <p>Мы работаем только с качественной, гипоаллергенной продукцией</p>
+                                </div>
+                            </li>
+                            <li class="why__list-item">
+                                <div class="why__list-text">
+                                    <span>✓</span>
+                                    <p>Все поверхности и инструменты очищаются, дезинфицируются до и после использования</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="callback" class="callback">
+            <div class="container">
+                <div class="callback__wrapper">
+                    <div class="callback__wrapper-left">
+                        <img src="./img/other/man.jpg" alt="man">
+                    </div>
+                    <div class="callback__wrapper-right">
+                        <div class="callback__title">Оставьте заявку и мы вам перезвоним</div>
+                        <form action="#" class="callback__form">
+                            <div class="callback__form-input">
+                                <input type="text" placeholder="Ваше имя" id="checked" name="name">
+                            </div>
+                            <div class="callback__form-input">
+                                <input type="text" placeholder="Ваш телефон" data-input="masked" id="checked" name="phone">
+                            </div>
+                            <div class="callback__form-input">
+                                <textarea placeholder="Комментарий" name="comment"></textarea>
+                            </div>
+                            <button type="submit" class="button button_big">Перезвонить мне</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__title">Как нас найти</div>
+                <div class="contacts__block">
+                    <p class="contacts__block-title">мы находимся тут</p>
+                    <p class="contacts__block-subtitle">
+                        г. Энгельс, ул. Коммунаров, 14<br>ТРЦ «Космонавт»
+                    </p>
+                    <a href="#" class="contacts__block-phone">+7 (999) 999-9999</a>
+                    <a href="#" class="contacts__block-phone">vamknam@vamknam.ru</a>
+                </div>
+            </div>
+            <div class="contacts__map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac8e6ae87d2f9468961e6ddabc8c823d5d0190285b6230ed1e2cc2bd2584d8dc9&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </section>
+    </main>
+    @@include('html/footer.html', {})
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>

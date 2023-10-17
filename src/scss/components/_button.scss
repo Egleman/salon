@@ -1,0 +1,32 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 305px;
+  height: 64px;
+  border-radius: 4px;
+  color: #fff;
+  background: #B61E25;
+  font-size: 18px;
+  transition: .3s all;
+  border: none;
+  outline: none;
+  &:hover {
+    opacity: .7;
+  }
+  &_small {
+    font-size: 16px;
+    height: 34px;
+    width: max-content;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  &_big {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .button {
+    width: 100%;
+  }
+}
